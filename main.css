@@ -1,3 +1,13 @@
+/*
+NOTE:
+--webkit for safari and chrome support
+translateZ is moving perspective of element foward or backwards
+scale is increasing or decreasing the size of the element. Ex: 1 = 100%, 0.8 = 80%;
+z-index is the order of layering of elements. z-index 200 renders on top of z-index 100.
+transform-style: preserve-3D renders elements into a 3D space, the default is 2D.
+transform-style: preserve-3D only works when used in conjunction with transform: translate();
+*/
+
 .parallax {
   height: 500px; /* fallback for older browsers */
   height: 100vh;
